@@ -10,12 +10,10 @@ export const App = () => {
         <p>Avaliação 1</p>
       </div>
 
-      <div className="w-full max-w-6xl mx-auto h-full relative px-8 md:px-4 flex flex-col gap-12">
+      <div className="w-full max-w-6xl mx-auto h-full relative px-8 md:px-4 flex flex-col gap-12 py-8">
         <SobreNos />
         <Lideres />
         <Metas />
-
-        {/* <span className="left-[-48px] top-[-48px] absolute w-64 h-64 bg-gradient-to-r from-indigo-500 rounded-full opacity-50"></span> */}
       </div>
     </div>
   );

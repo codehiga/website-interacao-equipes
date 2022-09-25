@@ -3,12 +3,14 @@ import HIGA from "../assets/images/HIGA.jpg";
 import RAFA from "../assets/images/RAFA.jpg";
 
 import EDU_DOMINANCIA from "../assets/images/EDU_DOMINANCIA_CEREBRAL_ATUAL.png";
+import HIGA_DOMINANCIA from "../assets/images/HIGA_DOMINANCIA_CEREBRAL_ATUAL.png";
 import RAFA_DOMINANCIA from "../assets/images/RAFA_DOMINANCIA_CEREBRAL_ATUAL.png";
 
 import EDU_DOMINANCIA_META from "../assets/images/EDU_DOMINANCIA_CEREBRAL_META.png";
 import RAFA_DOMINANCIA_META from "../assets/images/RAFA_DOMINANCIA_CEREBRAL_META.png";
 
 import EDU_AUDIO from "../assets/audios/EDU_AUDIO.mp3";
+import HIGA_AUDIO from "../assets/audios/HIGA_AUDIO.mp3";
 import RAFA_AUDIO from "../assets/audios/RAFA_AUDIO.mp3";
 
 export const alunos = [
@@ -37,10 +39,13 @@ export const alunos = [
     foto: HIGA,
     texto: `"O Higa é uma pessoa que não apresenta muitas características de liderança apesar de chamar a responsabilidade de alguns trabalhos para ele, ele é uma pessoa que se comunica muito bem e consegue passar a linha de raciocínio para que todos que o ouvem, entendam. O comprometimento dele é de se admirar, quando ele gosta do assunto, ninguém tira o foco e a motivação dele para realizar a tarefa."
     `,
-    audio: RAFA_AUDIO,
-    dominancia: EDU_DOMINANCIA_META,
+    audio: HIGA_AUDIO,
+    dominancia: HIGA_DOMINANCIA,
     meta: RAFA_DOMINANCIA,
-    metas_pontos: [""],
+    metas_pontos: [
+      "Melhorar habilidades de comunicação",
+      "Envolver-me mais em outros tipos de atividades fora da minha bolha de conhecimento técnico",
+    ],
   },
   {
     nome: "rafael guerino",
