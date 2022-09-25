@@ -38,14 +38,9 @@ export const alunos = [
     texto: `"O Higa é uma pessoa que não apresenta muitas características de liderança apesar de chamar a responsabilidade de alguns trabalhos para ele, ele é uma pessoa que se comunica muito bem e consegue passar a linha de raciocínio para que todos que o ouvem, entendam. O comprometimento dele é de se admirar, quando ele gosta do assunto, ninguém tira o foco e a motivação dele para realizar a tarefa."
     `,
     audio: RAFA_AUDIO,
-    dominancia: RAFA_DOMINANCIA,
-    meta: EDU_DOMINANCIA_META,
-    metas_pontos: [
-      "Ser mais disciplinado",
-      "Estudar mais e focar na carreira",
-      "Economizar dinheiro e aprender a investir",
-      "Fazer cursos específicos e conhecer novas matérias",
-    ],
+    dominancia: EDU_DOMINANCIA_META,
+    meta: RAFA_DOMINANCIA,
+    metas_pontos: [""],
   },
   {
     nome: "rafael guerino",
